@@ -18,7 +18,7 @@
 
     <TextView
         android:fontFamily="@font/meriendaone_regular"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
