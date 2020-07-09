@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
         if(mOnBoardingViewPager.getCurrentItem() + 1 < mOnboardingAdapter.getItemCount()) {
             mOnBoardingViewPager.setCurrentItem(mOnBoardingViewPager.getCurrentItem() + 1);
         }else {
-            nextButton.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
+            //nextButton.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
         }
 
     }
