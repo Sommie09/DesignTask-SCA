@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DesignTask-SCA</string>
+
+    //OnBoarding screen title
+    <string name="screen_one_title">Keep Calm</string>
+    <string name="screen_two_title">Mindfulness</string>
+    <string name="screen_three_title">Stay focused</string>
+
+    //OnBoarding screen description
+    <string name="screen_one_description">Feel less stressed and more mindful with mediation</string>
+    <string name="screen_two_description">Mind is very powerful, and take of our mind is an utmost priority</string>
+    <string name="screen_three_description">"Let's maintain your focus by meditating everyday without hassle"</string>
+
+    <string name="get_started_text">Get started</string>
+    <string name="next_text">Next</string>
+    <string name="skip_text">Skip</string>
+
+</resources>

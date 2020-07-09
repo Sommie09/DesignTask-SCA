@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="150dp"
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="onboarding_image"
+        app:srcCompat="@drawable/hugo3" />
+
+    <TextView
+        android:fontFamily="@font/meriendaone_regular"
+        android:layout_marginTop="30dp"
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/screen_one_title"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:fontFamily="@font/raleway_extralight"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textAlignment="center"
+        android:id="@+id/description_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="8sp"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:text="@string/screen_one_description" />
+</LinearLayout>
